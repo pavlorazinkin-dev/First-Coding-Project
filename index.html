@@ -7,55 +7,64 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="cards-container">
-        <div class="card">
-            <h1 class="card-title">Hobby</h1>
-            <p class="card-price">Free</p>
-            <div class="card-content">
-                <p class="includes-text">Includes:</p>
-                <ul class="features-list">
-                    <li>
-                        <span class="checkmark">✓</span>
-                        No credit card required
-                    </li>
-                    <li>
-                        <span class="checkmark">✓</span>
-                        Limited Agent requests
-                    </li>
-                    <li>
-                        <span class="checkmark">✓</span>
-                        Limited Tab completions
-                    </li>
-                </ul>
+    <main class="page">
+        <div class="cards-container">
+            <div class="card">
+                <h2 class="card-title">Hobby</h2>
+                <p class="card-price">Free</p>
+                <div class="card-content">
+                    <p class="includes-text">Includes:</p>
+                    <ul class="features-list">
+                        <li>
+                            <span class="checkmark" data-feather="check"></span>
+                            No credit card required
+                        </li>
+                        <li>
+                            <span class="checkmark" data-feather="check"></span>
+                            Limited Agent requests
+                        </li>
+                        <li>
+                            <span class="checkmark" data-feather="check"></span>
+                            Limited Tab completions
+                        </li>
+                    </ul>
+                </div>
+                <button class="download-button">Download</button>
             </div>
-            <button class="download-button">Download</button>
-        </div>
-        <div class="card">
-            <h1 class="card-title">Pro</h1>
-            <p class="card-price">$20/mo.</p>
-            <div class="card-content">
-                <p class="includes-text">Everything in Hobby, plus:</p>
-                <ul class="features-list">
-                    <li>
-                        <span class="checkmark">✓</span>
-                        Extended limits on Agent
-                    </li>
-                    <li>
-                        <span class="checkmark">✓</span>
-                        Unlimited Tab completions
-                    </li>
-                    <li>
-                        <span class="checkmark">✓</span>
-                        Background Agents
-                    </li>
-                    <li>
-                        <span class="checkmark">✓</span>
-                        Maximum context windows
-                    </li>
-                </ul>
+            <div class="card">
+                <h2 class="card-title">Pro</h2>
+                <p class="card-price">
+                    <span class="card-price-amount">$20</span>
+                    <span class="card-price-period">/mo.</span>
+                </p>
+                <div class="card-content">
+                    <p class="includes-text">Everything in Hobby, plus:</p>
+                    <ul class="features-list">
+                        <li>
+                            <span class="checkmark" data-feather="check"></span>
+                            Extended limits on Agent
+                        </li>
+                        <li>
+                            <span class="checkmark" data-feather="check"></span>
+                            Unlimited Tab completions
+                        </li>
+                        <li>
+                            <span class="checkmark" data-feather="check"></span>
+                            Background Agents
+                        </li>
+                        <li>
+                            <span class="checkmark" data-feather="check"></span>
+                            Maximum context windows
+                        </li>
+                    </ul>
+                </div>
+                <button class="download-button">Get Pro</button>
             </div>
-            <button class="download-button">Get Pro</button>
         </div>
-    </div>
+    </main>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
